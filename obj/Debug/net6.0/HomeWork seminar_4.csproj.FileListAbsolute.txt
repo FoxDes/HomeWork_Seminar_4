@@ -1,0 +1,15 @@
+C:\Users\mdn-f\Desktop\ДЗ\HomeWork seminar_4\bin\Debug\net6.0\HomeWork seminar_4.exe
+C:\Users\mdn-f\Desktop\ДЗ\HomeWork seminar_4\bin\Debug\net6.0\HomeWork seminar_4.deps.json
+C:\Users\mdn-f\Desktop\ДЗ\HomeWork seminar_4\bin\Debug\net6.0\HomeWork seminar_4.runtimeconfig.json
+C:\Users\mdn-f\Desktop\ДЗ\HomeWork seminar_4\bin\Debug\net6.0\HomeWork seminar_4.dll
+C:\Users\mdn-f\Desktop\ДЗ\HomeWork seminar_4\bin\Debug\net6.0\HomeWork seminar_4.pdb
+C:\Users\mdn-f\Desktop\ДЗ\HomeWork seminar_4\obj\Debug\net6.0\HomeWork seminar_4.csproj.AssemblyReference.cache
+C:\Users\mdn-f\Desktop\ДЗ\HomeWork seminar_4\obj\Debug\net6.0\HomeWork seminar_4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mdn-f\Desktop\ДЗ\HomeWork seminar_4\obj\Debug\net6.0\HomeWork seminar_4.AssemblyInfoInputs.cache
+C:\Users\mdn-f\Desktop\ДЗ\HomeWork seminar_4\obj\Debug\net6.0\HomeWork seminar_4.AssemblyInfo.cs
+C:\Users\mdn-f\Desktop\ДЗ\HomeWork seminar_4\obj\Debug\net6.0\HomeWork seminar_4.csproj.CoreCompileInputs.cache
+C:\Users\mdn-f\Desktop\ДЗ\HomeWork seminar_4\obj\Debug\net6.0\HomeWork seminar_4.dll
+C:\Users\mdn-f\Desktop\ДЗ\HomeWork seminar_4\obj\Debug\net6.0\refint\HomeWork seminar_4.dll
+C:\Users\mdn-f\Desktop\ДЗ\HomeWork seminar_4\obj\Debug\net6.0\HomeWork seminar_4.pdb
+C:\Users\mdn-f\Desktop\ДЗ\HomeWork seminar_4\obj\Debug\net6.0\HomeWork seminar_4.genruntimeconfig.cache
+C:\Users\mdn-f\Desktop\ДЗ\HomeWork seminar_4\obj\Debug\net6.0\ref\HomeWork seminar_4.dll
