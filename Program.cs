@@ -22,56 +22,67 @@
 
 // Задача 29: Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
 
+// Console.Clear();
+// Console.Write("Введите восьмизначное число: ");
+// int A = Convert.ToInt32(Console.ReadLine());
+
+// int i = A;
+// if (i > 0){
+//     i = (i /= 1) % 10;
+// }
+// int j = A;
+// if (j > 0){
+//     j = (j /= 10) % 10;
+// }
+// int s = A;
+// if (s > 0){
+//     s = (s /= 100) % 10;
+// }
+// int x = A;
+// if (x > 0){
+//     x = (x /= 1000) % 10;
+// }
+// int g = A;
+// if (g > 0){
+//     g = (g /= 10000) % 10;
+// }
+// int d = A;
+// if (d > 0){
+//     d = (d /= 100000) % 10;
+// }
+// int c = A;
+// if (c > 0){
+//     c = (c /= 1000000) % 10;
+// }
+// int y = A;
+// if (y > 0){
+//     y = (y /= 10000000) % 10;
+// }
+// Console.WriteLine($"[" + y + ", " + c + ", " + d + ", " + g + ", " + x + ", " + s + ", " + j + ", " + i + "]");
+
+
+// Задача 27: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
+
 Console.Clear();
-Console.Write("Введите восьмизначное число: ");
+Console.Write("Введите число: ");
 int A = Convert.ToInt32(Console.ReadLine());
 
-int i = A;
-if (i > 0)
-{
-    i = (i /= 1) % 10;
-}
+int Sum(int A)
+{    
+    int count = Convert.ToString(A).Length;
+    int step = 0;
+    int result = 0;
 
-int j = A;
-if (j > 0)
-{
-    j = (j /= 10) % 10;
-}
+    for (int i = 0; i < count; i++)
+    {
+      step = A - A % 10;
+      result = result + (A - step);
+      A = A / 10;
+    }
+   return result;
+  }
 
-int s = A;
-if (s > 0)
-{
-    s = (s /= 100) % 10;
-}
+int sum = Sum(A);
+Console.WriteLine("Сумма цифр в числе: " + sum);
 
-int x = A;
-if (x > 0)
-{
-    x = (x /= 1000) % 10;
-}
 
-int g = A;
-if (g > 0)
-{
-    g = (g /= 10000) % 10;
-}
-
-int d = A;
-if (d > 0)
-{
-    d = (d /= 100000) % 10;
-}
-
-int c = A;
-if (c > 0)
-{
-    c = (c /= 1000000) % 10;
-}
-
-int y = A;
-if (y > 0)
-{
-    y = (y /= 10000000) % 10;
-}
-
-Console.WriteLine($"[" + y + ", " + c + ", " + d + ", " + g + ", " + x + ", " + s + ", " + j + ", " + i + "]");
